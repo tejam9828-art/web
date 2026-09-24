@@ -1,0 +1,12 @@
+img{
+    width:200px;
+    border: 5px solid rgb(232, 19, 19);
+    border-radius: 10px;}
+    button{
+        background-color: rgb(227, 141, 29);
+        color: rgb(19, 220, 153);
+        padding: 10px;
+        border:none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
