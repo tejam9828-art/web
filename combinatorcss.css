@@ -1,0 +1,15 @@
+ div p {
+  color: rgb(235, 16, 52);
+  font-size: 20px;
+}
+div>p{
+    color: rgb(20, 220, 23);
+}
+p+h2{
+    color: gold;
+
+}
+h3~h4{
+    color: darkblue;
+    font-size: medium;
+}

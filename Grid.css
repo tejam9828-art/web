@@ -1,0 +1,43 @@
+#a{
+    height:1000px;
+    width:1000px;
+    background-color: rgb(83, 110, 110);
+    display:grid;
+    justify-content: start;
+    align-items:start;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px;
+    /* row-gap: 300px;
+    column-gap: 200px; */
+    gap: 200px 300px;
+}
+#b{
+    height:50px;
+    width:50px;
+    background-color: palevioletred;
+}
+
+#c{
+    height:50px;
+    width:50px;
+    background-color: olive;
+}
+
+#d{
+    height:50px;
+    width:50px;
+    background-color: cornflowerblue;
+}
+
+#e{
+    height:50px;
+    width:50px;
+    background-color: peachpuff;
+}
+
+#f{
+    height:50px;
+    width:50px;
+    background-color: orchid;
+
+}

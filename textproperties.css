@@ -1,0 +1,20 @@
+p{
+    color: rgb(40, 220, 40);
+}
+p{
+    text-align:justify;
+}
+p{
+    text-transform: capitalize;
+}
+p{
+    text-indent: 10px;
+}
+p{
+    text-shadow:2px 2px 0.1px ;
+    font-size: 30px;
+    text-decoration:wavy;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-decoration-color: aqua;
+}

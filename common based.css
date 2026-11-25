@@ -1,0 +1,28 @@
+h1:first-child{
+    color: crimson;
+}
+p:last-child{
+    color: rgb(235, 20, 167);
+    font-size: 60px;
+}
+h3:first-of-type{
+    color: chocolate;
+}
+h2:last-of-type{
+    color: aqua;
+}
+h2:nth-child(2){
+    color: rgb(57, 200, 28);
+ }
+p:nth-last-child(5){
+    color: darkgoldenrod;
+ }
+ h2:only-child{
+    color: rgb(17, 81, 230);
+ }
+p:nth-last-of-type{
+    color: rgb(63, 0, 139);
+}
+h1:only-of-type{
+    color: cornflowerblue;
+}

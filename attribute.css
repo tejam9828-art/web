@@ -1,0 +1,19 @@
+input[type="text"] {
+  color: red;              /* exact value */
+}
+
+input[class] {
+  background: yellow;      /* has attribute */
+}
+
+a[href^="https"] {
+  color: green;            /* starts with */
+}
+
+a[href$=".pdf"] {
+  color: blue;             /* ends with */
+}
+
+a[href*="google"] {
+  font-weight: bold;       /* contains */
+}

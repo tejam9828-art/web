@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #87CEEB, white);
+}
+
+/* Flag container */
+.flag-container {
+    position: relative;
+}
+
+/* Pole */
+.pole {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 10px;
+    height: 320px;
+    background: linear-gradient(to right, #FF9933, white,#138808);
+    border-radius: 5px;
+}
+
+/* Flag */
+ .flag {
+    width: 240px;
+    height: 150px;
+    box-shadow: 3px 5px 12px #888;
+} 
+
+.saffron {
+    height: 50px;
+    background: #FF9933;
+}
+
+.white {
+    height: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    height: 50px;
+    background: #138808;
+}
+
+/* Ashoka Chakra */
+.chakra {
+    width: 38px;
+    height: 38px;
+    border: 3px solid #000080;
+    border-radius: 50%;
+    background: repeating-conic-gradient(
+        #000080 0deg 7deg,
+        transparent 2deg 15deg
+    );
+}
+
+/* Three-colour base */
+.base1 {
+    position: absolute;
+    top: 320px;
+    left: -35px;
+    width: 80px;
+    height: 15px;
+    background: #FF9933;
+}
+
+.base2 {
+    position: absolute;
+    top: 335px;
+    left: -55px;
+    width: 120px;
+    height: 15px;
+    background: white;
+}
+
+.base3 {
+    position: absolute;
+    top: 350px;
+    left: -75px;
+    width: 160px;
+    height: 15px;
+    background: #138808;
